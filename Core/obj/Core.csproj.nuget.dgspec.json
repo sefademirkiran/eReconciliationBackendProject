@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj": {}
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

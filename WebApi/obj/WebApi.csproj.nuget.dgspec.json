@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {}
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\Business.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\Business.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\Business.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\Business.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj"
+              "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,14 +167,14 @@
         }
       }
     },
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj"
+              "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
+                "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\Entities.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Entites\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -266,8 +266,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Core\\Core.csproj"
+              "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj"
               }
             }
           }
@@ -301,14 +301,14 @@
         }
       }
     },
-    "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {
+    "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\sefad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\WebApi\\obj\\",
+        "outputPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -330,8 +330,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\Business.csproj": {
-                "projectPath": "C:\\Users\\sefad\\OneDrive\\Desktop\\eReconciliationBackendProject\\Bussiness\\Business.csproj"
+              "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\Business.csproj": {
+                "projectPath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Bussiness\\Business.csproj"
               }
             }
           }
