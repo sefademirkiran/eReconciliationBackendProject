@@ -9,6 +9,7 @@ namespace Business.Constans
     public class Messages
     {
         public static string AddedCompany = "Şirket kaydı başarıyla tamamlandı";
+        public static string UpdatedCompany = "Şirket kaydı başarıyla güncellendi";
         public static string CompanyAlreadyExsits = "Bu şirket daha önce kayıt edilmiş";
         public static string LoginIsNotActive = "Bu kullanıcı pasif durumdadır. Lütfen yöneticinize başvurunuz..";
 
@@ -31,7 +32,9 @@ namespace Business.Constans
         public static string MailTemplateDeleted = "Mail şablonu başarıyla silindi.";
         public static string MailTemplateUpdated = "Mail şablonu başarıyla güncellendi.";
 
-
+        public static string AddedCurrencyAccount = "Cari kaydı başarıyla eklendi.";
+        public static string UpdatedCurrencyAccount = "Cari kaydı başarıyla güncellendi.";
+        public static string DeletedCurrencyAccount = "Cari kaydı başarıyla silindi.";
 
     }
 }
