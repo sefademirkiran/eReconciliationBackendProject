@@ -18,19 +18,19 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("addFromExcel")]
-        public IActionResult AddFromExcel(CurrenctAccountExcelDto currenctAccount)
+        public IActionResult AddFromExcel(IFormFile file, int companyId)
         {
-            if (currenctAccount.File.Length > 0) 
+            if (file.Length > 0) 
             {
-                var fileName = Guid.NewGuid().ToString() + "xlsx";
-                var filePath = $"({Directory.GetCurrentDirectory()}/Content/{fileName})";
+                var fileName = Guid.NewGuid().ToString() + ".xlsx";
+                var filePath = $"{Directory.GetCurrentDirectory()}/Content/{fileName}";
                 using (FileStream stream = System.IO.File.Create(filePath))
                 {
-                    currenctAccount.File.CopyTo(stream);
+                    file.CopyTo(stream);
                     stream.Flush();
                 }
 
-                var result = _currencyAccountService.AddToExcel(filePath);
+                var result = _currencyAccountService.AddToExcel(filePath, companyId);
                 if (result.Success)
                 {
                     return Ok(result);
