@@ -22,3 +22,9 @@ build/
 *.ldf
 *.dll
 *.exe
+*.dll
+/.vs
+*.cache
+*.cache
+/Bussiness/obj/Debug
+*.pdb

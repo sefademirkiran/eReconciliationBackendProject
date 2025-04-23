@@ -16,4 +16,8 @@
 		<ProjectReference Include="..\Bussiness\Business.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Content\" />
+	</ItemGroup>
+
 </Project>

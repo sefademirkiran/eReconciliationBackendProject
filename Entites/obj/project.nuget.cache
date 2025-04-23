@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "p8/GpgmPwJyNQ2IqPfOFfAu+e5CMnxSdfJS7gX7ulmztm3nwir+DVD8fXv5PZjZ9/CaCFOjfI1+BY4Q5pq8A/A==",
+  "dgSpecHash": "YKAa139gNuKZ994IjE48uEMCdTomATFh7Oq70KYFFKJ8IUNkmtBgDSWphS69PFuY4a60kVHlyeTVlbkaX0r32Q==",
   "success": true,
   "projectFilePath": "C:\\Projects\\eReconciliationBackendProject\\eReconciliationBackendProject\\Entites\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sefad\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\sefad\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -80,6 +81,7 @@
     "C:\\Users\\sefad\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\sefad\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\sefad\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
