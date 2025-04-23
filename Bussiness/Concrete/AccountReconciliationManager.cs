@@ -65,8 +65,7 @@ namespace Business.Concrete
                                 StartingDate = startingDate,
                                 EndingDate = endingDate
                             };
-                            _accountReconciliationDal.Add(accountReconciliation);
-                            
+                            _accountReconciliationDal.Add(accountReconciliation);                           
                         }
                     }
                 }
