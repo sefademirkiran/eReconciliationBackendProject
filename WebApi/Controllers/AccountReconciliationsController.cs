@@ -72,7 +72,7 @@ namespace WebApi.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpPost("getById")]
+        [HttpGet("getById")]
         public IActionResult GetById(int id)
         {
             var result = _accountReconciliationService.GetById(id);
@@ -83,7 +83,7 @@ namespace WebApi.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpPost("getList")]
+        [HttpGet("getList")]
         public IActionResult GetList(int companyId)
         {
             var result = _accountReconciliationService.GetList(companyId);
