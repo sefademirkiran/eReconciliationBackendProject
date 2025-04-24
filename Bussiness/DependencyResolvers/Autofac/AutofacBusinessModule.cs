@@ -25,14 +25,14 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<AccountReconciliationDetailManager>().As<IAccountReconciliationDetailService>();
             builder.RegisterType<EfAccountReconciliationDetailDal>().As<IAccountReconciliationDetailDal>();
 
-            builder.RegisterType<AccountReconciliationManager>().As<IAccountReconciliationSevice>();
+            builder.RegisterType<AccountReconciliationManager>().As<IAccountReconciliationService>();
             builder.RegisterType<EfAccountReconciliationDal>().As<IAccountReconciliationDal>();
 
-            builder.RegisterType<BaBsReconciliationsDetailManager>().As<IBaBsReconciliationsDetailService>();
+            builder.RegisterType<BaBsReconciliationDetailManager>().As<IBaBsReconciliationDetailService>();
             builder.RegisterType<EfBaBsReconciliationsDetailDal>().As<IBaBsReconciliationsDetailDal>();
 
-            builder.RegisterType<BaBsReconcilitionManager>().As<IBaBsReconcilitionService>();
-            builder.RegisterType<EfBaBsReconcilitionDal>().As<IBaBsReconcilitionDal>();
+            builder.RegisterType<BaBsReconciliationManager>().As<IBaBsReconciliationService>();
+            builder.RegisterType<EfBaBsReconcilitionDal>().As<IBaBsReconciliationDal>();
 
             builder.RegisterType<CurrencyAccountManager>().As<ICurrencyAccountService>();
             builder.RegisterType<EfCurrencyAccountDal>().As<ICurrencyAccountDal>();

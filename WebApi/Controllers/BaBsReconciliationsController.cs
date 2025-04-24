@@ -1,5 +1,4 @@
 ﻿using Business.Abstract;
-using Entites.Concrete;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,17 +7,17 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountReconciliationDetailsController : ControllerBase
+    public class BaBsReconciliationsController : ControllerBase
     {
-        private readonly IAccountReconciliationDetailService _accountReconciliationDetailService;
+        private readonly IBaBsReconciliationService _baBsReconciliationService;
 
-        public AccountReconciliationDetailsController(IAccountReconciliationDetailService accountReconciliationDetailsService)
+        public BaBsReconciliationsController(IBaBsReconciliationService baBsReconciliationService)
         {
-            _accountReconciliationDetailService = accountReconciliationDetailsService;
+            _baBsReconciliationService = baBsReconciliationService;
         }
 
         [HttpPost("addFromExcel")]
-        public IActionResult AddFromExcel(IFormFile file, int accountReconciliationId)
+        public IActionResult AddFromExcel(IFormFile file, int companyId)
         {
             if (file.Length > 0)
             {
@@ -30,7 +29,7 @@ namespace WebApi.Controllers
                     stream.Flush();
                 }
 
-                var result = _accountReconciliationDetailService.AddToExcel(filePath, accountReconciliationId);
+                var result = _baBsReconciliationService.AddToExcel(filePath, companyId);
                 if (result.Success)
                 {
                     return Ok(result);
@@ -41,9 +40,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Add(BaBsReconciliation baBsReconciliation)
         {
-            var result = _accountReconciliationDetailService.Add(accountReconciliationDetail);
+            var result = _baBsReconciliationService.Add(baBsReconciliation);
             if (result.Success)
             {
                 return Ok(result);
@@ -52,9 +51,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Update(BaBsReconciliation baBsReconciliation)
         {
-            var result = _accountReconciliationDetailService.Update(accountReconciliationDetail);
+            var result = _baBsReconciliationService.Update(baBsReconciliation);
             if (result.Success)
             {
                 return Ok(result);
@@ -63,9 +62,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("delete")]
-        public IActionResult Delete(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Delete(BaBsReconciliation baBsReconciliation)
         {
-            var result = _accountReconciliationDetailService.Delete(accountReconciliationDetail);
+            var result = _baBsReconciliationService.Delete(baBsReconciliation);
             if (result.Success)
             {
                 return Ok(result);
@@ -76,7 +75,7 @@ namespace WebApi.Controllers
         [HttpPost("getById")]
         public IActionResult GetById(int id)
         {
-            var result = _accountReconciliationDetailService.GetById(id);
+            var result = _baBsReconciliationService.GetById(id);
             if (result.Success)
             {
                 return Ok(result);
@@ -85,9 +84,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("getList")]
-        public IActionResult GetList(int accountReconciliationId)
+        public IActionResult GetList(int companyId)
         {
-            var result = _accountReconciliationDetailService.GetList(accountReconciliationId);
+            var result = _baBsReconciliationService.GetList(companyId);
             if (result.Success)
             {
                 return Ok(result);
@@ -96,4 +95,3 @@ namespace WebApi.Controllers
         }
     }
 }
-

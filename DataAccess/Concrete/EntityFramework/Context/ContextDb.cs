@@ -19,8 +19,8 @@ namespace DataAccess.Concrete.EntityFramework.Context
 
         public DbSet<AccountReconciliationDetail> accountReconciliationDetails { get; set; }
         public DbSet<AccountReconciliation> accountReconciliations { get; set; }
-        public DbSet<BaBsReconciliationsDetail> BaBsReconciliationsDetails { get; set; }
-        public DbSet<BaBsReconcilition> BaBsReconcilitions { get; set; }
+        public DbSet<BaBsReconciliationDetail> BaBsReconciliationsDetails { get; set; }
+        public DbSet<BaBsReconciliation> BaBsReconciliations { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Currency> Currencies { get; set; }
         public DbSet<CurrencyAccount> CurrencyAccounts { get; set; }

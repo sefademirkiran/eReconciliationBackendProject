@@ -8,17 +8,18 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountReconciliationDetailsController : ControllerBase
+    public class BaBsReconciliationDetailsController : ControllerBase
     {
-        private readonly IAccountReconciliationDetailService _accountReconciliationDetailService;
+        private readonly IBaBsReconciliationDetailService _baBsReconciliationDetailService;
 
-        public AccountReconciliationDetailsController(IAccountReconciliationDetailService accountReconciliationDetailsService)
+        public BaBsReconciliationDetailsController(IBaBsReconciliationDetailService baBsReconciliationDetailService)
         {
-            _accountReconciliationDetailService = accountReconciliationDetailsService;
+            _baBsReconciliationDetailService = baBsReconciliationDetailService;
         }
 
+
         [HttpPost("addFromExcel")]
-        public IActionResult AddFromExcel(IFormFile file, int accountReconciliationId)
+        public IActionResult AddFromExcel(IFormFile file, int baBsReconciliationId)
         {
             if (file.Length > 0)
             {
@@ -30,7 +31,7 @@ namespace WebApi.Controllers
                     stream.Flush();
                 }
 
-                var result = _accountReconciliationDetailService.AddToExcel(filePath, accountReconciliationId);
+                var result = _baBsReconciliationDetailService.AddToExcel(filePath, baBsReconciliationId);
                 if (result.Success)
                 {
                     return Ok(result);
@@ -41,9 +42,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Add(BaBsReconciliationDetail baBsReconciliationDetail)
         {
-            var result = _accountReconciliationDetailService.Add(accountReconciliationDetail);
+            var result = _baBsReconciliationDetailService.Add(baBsReconciliationDetail);
             if (result.Success)
             {
                 return Ok(result);
@@ -52,9 +53,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Update(BaBsReconciliationDetail baBsReconciliationDetail)
         {
-            var result = _accountReconciliationDetailService.Update(accountReconciliationDetail);
+            var result = _baBsReconciliationDetailService.Update(baBsReconciliationDetail);
             if (result.Success)
             {
                 return Ok(result);
@@ -63,9 +64,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("delete")]
-        public IActionResult Delete(AccountReconciliationDetail accountReconciliationDetail)
+        public IActionResult Delete(BaBsReconciliationDetail baBsReconciliationDetail)
         {
-            var result = _accountReconciliationDetailService.Delete(accountReconciliationDetail);
+            var result = _baBsReconciliationDetailService.Delete(baBsReconciliationDetail);
             if (result.Success)
             {
                 return Ok(result);
@@ -76,7 +77,7 @@ namespace WebApi.Controllers
         [HttpPost("getById")]
         public IActionResult GetById(int id)
         {
-            var result = _accountReconciliationDetailService.GetById(id);
+            var result = _baBsReconciliationDetailService.GetById(id);
             if (result.Success)
             {
                 return Ok(result);
@@ -85,9 +86,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("getList")]
-        public IActionResult GetList(int accountReconciliationId)
+        public IActionResult GetList(int baBsReconciliationId)
         {
-            var result = _accountReconciliationDetailService.GetList(accountReconciliationId);
+            var result = _baBsReconciliationDetailService.GetList(baBsReconciliationId);
             if (result.Success)
             {
                 return Ok(result);

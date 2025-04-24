@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IAccountReconciliationSevice
+    public interface IAccountReconciliationService
     {
         IResult Add(AccountReconciliation accountReconciliation);
         IResult AddToExcel(string filePath, int companyId);
