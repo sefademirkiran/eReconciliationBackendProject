@@ -27,8 +27,10 @@ namespace Business.Concrete
         private readonly IMailParameterService _mailParameterService;
         private readonly IMailService _mailService;
         private readonly IMailTemplateService _mailTemplateService;
+        private readonly IUserOperationClaimService _userOperationClaimService;
+        private readonly IOperationClaimService _operationClaimService;
 
-        public AuthManager(IUserService userService, ITokenHelper tokenHelper, ICompanyService companyService, IMailParameterService mailParameterService, IMailService mailService, IMailTemplateService mailTemplateService)
+        public AuthManager(IUserService userService, ITokenHelper tokenHelper, ICompanyService companyService, IMailParameterService mailParameterService, IMailService mailService, IMailTemplateService mailTemplateService, IUserOperationClaimService userOperationClaimService, IOperationClaimService operationClaimService)
         {
             _userService = userService;
             _tokenHelper = tokenHelper;
@@ -36,6 +38,8 @@ namespace Business.Concrete
             _mailParameterService = mailParameterService;
             _mailService = mailService;
             _mailTemplateService = mailTemplateService;
+            _userOperationClaimService = userOperationClaimService;
+            _operationClaimService = operationClaimService;
         }
 
         public IResult CompanyExists(Company company)
@@ -116,7 +120,7 @@ namespace Business.Concrete
                 MailConfirmValue = user.MailConfirmValue,
                 PasswordHash = user.PasswordHash,
                 PasswordSalt = user.PasswordSalt,
-            };
+            };            
 
             SendConfirmEmail(user);
 

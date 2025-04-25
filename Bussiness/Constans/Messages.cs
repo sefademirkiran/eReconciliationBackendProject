@@ -56,6 +56,10 @@ namespace Business.Constans
         public static string DeletedOperationClaim = "Yetki başarılıyla silindi.";
         public static string UpdatedOperationClaim = "Yetki başarılıyla güncellendi.";
 
+        public static string AddedUserOperationClaim = "Kullanıcıya yetki başarılıyla eklendi";
+        public static string DeletedUserOperationClaim = "Kullanıcıya yetki başarılıyla silindi.";
+        public static string UpdatedUserOperationClaim = "Kullanıcıya yetki başarılıyla güncellendi.";
+
 
 
 
