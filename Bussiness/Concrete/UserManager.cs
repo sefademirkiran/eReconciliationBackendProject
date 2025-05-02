@@ -39,7 +39,7 @@ namespace Business.Concrete
         [CacheAspect(60)]
         public User GetByMail(string email)
         {
-            return _userDal.Get(p=>p.Email == email);
+            return _userDal.Get(p => p.Email == email);
         }
 
         [CacheAspect(60)]
@@ -54,7 +54,7 @@ namespace Business.Concrete
         }
 
         [PerformanceAspect(3)]
-        [SecuredOperation("Update.Update,Admin")]
+        //[SecuredOperation("Update.Update,Admin")]
         [CacheRemoveAspect("IUserService.Get")]
         public void Update(User user)
         {

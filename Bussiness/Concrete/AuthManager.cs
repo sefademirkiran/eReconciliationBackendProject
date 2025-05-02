@@ -56,7 +56,7 @@ namespace Business.Concrete
         {
             var claims = _userService.GetClaims(user, companyId);
             var accessToken = _tokenHelper.CreateToken(user, claims, companyId);
-            return new SuccessDataResult<AccessToken>(accessToken);
+            return new SuccessDataResult<AccessToken>(accessToken, Messages.SuccessfulLogin);
         }
 
         public IDataResult<User> GetById(int id)
@@ -76,13 +76,16 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<User>(Messages.UserNotFound);
             }
-            if (!HashingHelper.VerifyPasswordHash(userForLogin.Password,userToCheck.PasswordHash,userToCheck.PasswordSalt))
+
+            if (!HashingHelper.VerifyPasswordHash(userForLogin.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
+
             return new SuccessDataResult<User>(userToCheck, Messages.SuccessfulLogin);
 
         }
+
 
         [TransactionScopeAspect]
         public IDataResult<UserCompanyDto> Register(UserForRegister userForRegister, string password, Company company)
